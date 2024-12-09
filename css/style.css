@@ -124,6 +124,7 @@ img {
   align-items: center;
   column-gap: 15px;
   text-transform: capitalize;
+  cursor: pointer;
 }
 .header_item_icon i{
   font-size: 24px;
