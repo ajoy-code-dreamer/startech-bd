@@ -68,6 +68,9 @@ img {
   max-width: 1290px;
   margin: 0 auto;
 }
+body {
+  background-color: #f2f4f8;
+}
 /* ============= common css end here ================ */
 
 /* ==================== header section css start here ================== */
@@ -192,6 +195,7 @@ img {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  background-color: var(--white-clr);
 }
 .service_icon {
   width: 50px;
@@ -218,7 +222,22 @@ img {
   font-size: 15px;
   line-height: 26px;
 }
-/* ==================== service section css end here ================== */
-/* ==================== banner section css start here ================== */
 
-/* ==================== banner section css end here ================== */
+/* ==================== service section css end here ================== */
+/* ==================== notice section css start here ================== */
+#notice {
+  padding-bottom: 30px;
+}
+.notice_box_wrapper {
+  padding: 12px 20px 8px;
+  background: #fff;
+  border-radius: 33px;
+  font-size: 14px;
+  color: #444;
+  min-height: 40px;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+}
+/* ==================== notice section css end here ================== */
