@@ -85,7 +85,7 @@ img {
   max-width: 125px;
   max-height: 55px;
 }
-.search_box{
+.search_box {
   position: relative;
   width: 580px;
 }
@@ -102,13 +102,13 @@ img {
 }
 .search_box input::placeholder {
   font-family: Arial, Helvetica, sans-serif;
-  color:#333;
+  color: #333;
   font-weight: var(--regular-weight);
   font-size: 15px;
   line-height: normal;
   text-transform: capitalize;
 }
-.search_box i{
+.search_box i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -119,24 +119,24 @@ img {
   -o-transform: translateY(-50%);
   cursor: pointer;
 }
-.header_item_wrapper{
+.header_item_wrapper {
   display: flex;
   align-items: center;
   column-gap: 15px;
   text-transform: capitalize;
 }
-.header_item_icon i{
+.header_item_icon i {
   font-size: 24px;
   color: rgb(239, 74, 35);
 }
-.header_item_name_wrapper h4{
-  color:var(--white-clr);
+.header_item_name_wrapper h4 {
+  color: var(--white-clr);
   font-size: 15px;
   line-height: 20px;
   padding-bottom: 5px;
 }
 .header_item_name_wrapper h5,
-.header_item_wrapper .login{
+.header_item_wrapper .login {
   color: rgb(131, 131, 131);
   font-size: 11px;
   line-height: normal;
@@ -146,15 +146,15 @@ img {
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
 }
-.header_item_wrapper .login:hover{
+.header_item_wrapper .login:hover {
   color: #ff4655;
 }
-.header_btn{
+.header_btn {
   font-size: 16px;
   color: var(--white-clr);
   padding: 15px 20px;
   font-weight: 700;
-  background-color: #3749BA;
+  background-color: #3749ba;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -168,6 +168,56 @@ img {
 
 /* ==================== nav section css end here ================== */
 
+/* ==================== banner section css start here ================== */
+
+/* ==================== banner section css end here ================== */
+/* ==================== service section css start here ================== */
+#service {
+  padding: 30px 0;
+}
+.service_item_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service_item {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.service_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: var(--white-clr);
+  background-color: #ef4a23;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+.service_name_wrapper h4 {
+  color: var(--black-clr);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: var(--bold-weight);
+}
+.service_name_wrapper h5 {
+  color: #444;
+  font-size: 15px;
+  line-height: 26px;
+}
+/* ==================== service section css end here ================== */
 /* ==================== banner section css start here ================== */
 
 /* ==================== banner section css end here ================== */
