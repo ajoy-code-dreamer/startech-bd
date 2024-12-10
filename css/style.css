@@ -79,5 +79,74 @@ img {
 /* ==================== nav section css end here ================== */
 
 /* ==================== banner section css start here ================== */
+.banner_wraper{
+  display: flex;
+  gap: 30px;
+}
+.servic{
+  height: 280px;
+  width: 300px;
+  background-color: #FFE8A1;
+  margin-top: 30px;
+}
+.servic h4{
+  color: #000;
+  text-align: center;
+  margin: -3px 0 8px;
+  margin-top: 30px;
+}
+.servic p{
+  color: #666666;
+  text-align: center;
+  margin: 20px 0 14px;
+  font-size: 14px;
+}
+.search_bar input{
+  margin-top: 20px;
+  width: 240px;
+  height: 40px;
 
+}
+.search_bar{
+position: relative;
+margin-left: 22px;
+}
+.search_bar i{
+position: absolute;
+top: 34px;
+left: 200px;
+}
+.servic button{
+  width: 240px;
+  display: inline-block;
+  background: none;
+  color: #2C3A96;
+  border: 2px solid #2C3A96;
+  padding: 0 20px;
+  margin: 20px 0 0 22px;
+  height: 42px;
+  line-height: 38px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.servic button:hover{
+background-color: #2C3A96;
+color: #fff;
+}
+.banner{
+margin-top: 30px;
+}
+.join{
+width: 300px;
+height: 192px;
+}
+.join img{
+width: 100%;
+object-fit: cover;
+}
 /* ==================== banner section css end here ================== */
