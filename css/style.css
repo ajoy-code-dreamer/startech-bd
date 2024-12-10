@@ -92,7 +92,7 @@ body {
   object-fit: cover;
   object-position: center;
 }
-.brand_logo img{
+.brand_logo img {
   width: 100%;
   height: 100%;
 }
@@ -176,21 +176,29 @@ body {
 /* ==================== header section css end here ================== */
 
 /* ==================== nav section css start here ================== */
-nav{
- padding: 20px 0;
- background-color: orange;
+nav {
+  padding: 20px 0;
+  background-color: var(--white-clr);
+  border-bottom: 1px solid #ddd;
 }
-.nav-menu-wrapper{
+.nav-menu-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nav-menu-wrapper li{
-font-family: ;
-font-weight: 600;
-size: 14px;
-line height: 50px;
-style: normal;
+.nav-menu-wrapper li {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  cursor: pointer;
+}
+.nav-menu-wrapper li:hover {
+  color: #ef4a23;
 }
 /* ==================== nav section css end here ================== */
 
@@ -284,7 +292,7 @@ style: normal;
   color: #01132d;
   margin-bottom: 30px;
 }
-.category_item_wrapper{
+.category_item_wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -301,14 +309,14 @@ style: normal;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
-.category_icon{
+.category_icon {
   font-size: 42px;
   padding: 15px;
 }
-.category_item_name{
-    font-size: 15px;
-    color: #01132D;
-    line-height: 26px;
-    font-weight: var(--regular-weight);
+.category_item_name {
+  font-size: 15px;
+  color: #01132d;
+  line-height: 26px;
+  font-weight: var(--regular-weight);
 }
 /* ==================== category section css end here ================== */
