@@ -203,49 +203,48 @@ nav {
 /* ==================== nav section css end here ================== */
 
 /* ==================== banner section css start here ================== */
-.banner_wraper{
+.banner_wraper {
   display: flex;
   gap: 30px;
 }
-.servic{
+.servic {
   height: 280px;
   width: 300px;
-  background-color: #FFE8A1;
+  background-color: #ffe8a1;
   margin-top: 30px;
 }
-.servic h4{
+.servic h4 {
   color: #000;
   text-align: center;
   margin: -3px 0 8px;
   margin-top: 30px;
 }
-.servic p{
+.servic p {
   color: #666666;
   text-align: center;
   margin: 20px 0 14px;
   font-size: 14px;
 }
-.search_bar input{
+.search_bar input {
   margin-top: 20px;
   width: 240px;
   height: 40px;
-
 }
-.search_bar{
-position: relative;
-margin-left: 22px;
+.search_bar {
+  position: relative;
+  margin-left: 22px;
 }
-.search_bar i{
-position: absolute;
-top: 34px;
-left: 200px;
+.search_bar i {
+  position: absolute;
+  top: 34px;
+  left: 200px;
 }
-.servic button{
+.servic button {
   width: 240px;
   display: inline-block;
   background: none;
-  color: #2C3A96;
-  border: 2px solid #2C3A96;
+  color: #2c3a96;
+  border: 2px solid #2c3a96;
   padding: 0 20px;
   margin: 20px 0 0 22px;
   height: 42px;
@@ -258,20 +257,20 @@ left: 200px;
   text-align: center;
   margin-bottom: 36px;
 }
-.servic button:hover{
-background-color: #2C3A96;
-color: #fff;
+.servic button:hover {
+  background-color: #2c3a96;
+  color: #fff;
 }
-.banner{
-margin-top: 30px;
+.banner {
+  margin-top: 30px;
 }
-.join{
-width: 300px;
-height: 192px;
+.join {
+  width: 300px;
+  height: 192px;
 }
-.join img{
-width: 100%;
-object-fit: cover;
+.join img {
+  width: 100%;
+  object-fit: cover;
 }
 /* ==================== banner section css end here ================== */
 /* ==================== service section css start here ================== */
@@ -389,3 +388,18 @@ object-fit: cover;
   font-weight: var(--regular-weight);
 }
 /* ==================== category section css end here ================== */
+
+/* ==================== store section css start here ================== */
+
+/* ==================== store section css end here ================== */
+
+/* ==================== product section css start here ================== */
+/* ==================== product section css end here ================== */
+
+/* ==================== details section css start here ================== */
+
+/* ==================== details section css end here ================== */
+
+/* ==================== footer section css start here ================== */
+
+/* ==================== footer section css end here ================== */
