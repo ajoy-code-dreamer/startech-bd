@@ -75,7 +75,22 @@ img {
 /* ==================== header section css end here ================== */
 
 /* ==================== nav section css start here ================== */
-
+nav{
+ padding: 20px 0;
+ background-color: orange;
+}
+.nav-menu-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu-wrapper li{
+font-family: ;
+font-weight: 600;
+size: 14px;
+line height: 50px;
+style: normal;
+}
 /* ==================== nav section css end here ================== */
 
 /* ==================== banner section css start here ================== */
