@@ -165,7 +165,7 @@ body {
   color: var(--white-clr);
   padding: 15px 20px;
   font-weight: 700;
-  background-color: #3749ba;
+  background: linear-gradient(125deg, #0bc1e9, #3749bb, #00237e);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -376,6 +376,7 @@ nav {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  cursor: pointer;
 }
 .category_icon {
   font-size: 42px;
@@ -386,10 +387,107 @@ nav {
   color: #01132d;
   line-height: 26px;
   font-weight: var(--regular-weight);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.category_item:hover .category_item_name {
+  color: #d51e0b;
 }
 /* ==================== category section css end here ================== */
 
 /* ==================== store section css start here ================== */
+#store {
+  padding: 50px 0;
+}
+.store_section_wrapper {
+  background: linear-gradient(125deg, #0bc1e9, #3749bb, #00237e);
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+}
+.location_icon {
+  font-size: 42px;
+  padding-right: 20px;
+}
+.store_name_wrapper h2 {
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 5px;
+  font-weight: var(--bold-weight);
+}
+.store_name_wrapper h3 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  font-weight: var(--medium-weight);
+  margin-bottom: 10px;
+}
+.store_locate_btn {
+  margin-left: auto;
+  background-color: #ef9919;
+  padding: 17px 50px;
+  border-radius: 50px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #081621;
+  font-weight: var(--bold-weight);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+.store_locate_btn i {
+  margin-left: 10px;
+  font-size: 17px;
+}
+.store_locate_btn::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background-color: rgba(8, 22, 33, 0.3);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  left: 0;
+  bottom: 0;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+  -moz-transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
+  -o-transform: translateY(-100px);
+}
+.store_locate_btn:hover::after {
+  transform: translateY(-0px);
+  -webkit-transform: translateY(-0px);
+  -moz-transform: translateY(-0px);
+  -ms-transform: translateY(-0px);
+  -o-transform: translateY(-0px);
+}
 
 /* ==================== store section css end here ================== */
 
